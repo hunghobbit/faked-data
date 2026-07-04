@@ -1,10 +1,63 @@
-{"posts": [{"id":1,"title":"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.","isFeatured":false},
-{"id":2,"title":"Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.","isFeatured":false},
-{"id":3,"title":"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.","isFeatured":true},
-{"id":4,"title":"Duis consequat dui nec nisi volutpat eleifend.","isFeatured":true},
-{"id":5,"title":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.","isFeatured":false},
-{"id":6,"title":"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.","isFeatured":true},
-{"id":7,"title":"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.","isFeatured":false},
-{"id":8,"title":"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.","isFeatured":false},
-{"id":9,"title":"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.","isFeatured":true},
-{"id":10,"title":"Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.","isFeatured":false}]}
+{"posts":[
+  { id: 101, title: "Lộ trình học ReactJS năm 2026", isFeatured: true },
+  { id: 102, title: "Tự tạo App với React Native trong 7 ngày", isFeatured: false },
+  { id: 103, title: "Tất tần tật về Flexbox trong CSS", isFeatured: false },
+  { id: 104, title: "Cách tối ưu hiệu năng Component", isFeatured: true }
+],
+  "todos" : [
+  { id: 1, task: "Gõ thử cú pháp Arrow Function", completed: true },
+  { id: 2, task: "Làm bài tập map/filter", completed: false },
+  { id: 3, task: "Cài đặt môi trường NodeJS & VS Code", completed: true },
+  { id: 4, task: "Đọc tài liệu về State trong React", completed: false }
+],
+  "comments" : [
+  { id: "c1", content: "Bài viết rất hay ạ!", reportCount: 0 },
+  { id: "c2", content: "Link tải phần mềm ở đây nha [Link_Lừa_Đảo]", reportCount: 12 },
+  { id: "c3", content: "Cho mình xin tài liệu với", reportCount: 2 },
+  { id: "c4", content: "Spam quảng cáo cờ bạc trực tuyến!!!", reportCount: 8 }
+],
+  "products" : [
+{ id: 1, name: "Tai nghe Bluetooth Sony", price: 2000000 },
+{ id: 2, name: "Bàn phím cơ AKKO", price: 1500000 },
+{ id: 3, name: "Chuột không dây Logitech", price: 800000 }
+],
+  "storeProducts" : [
+{ id: 1, name: "Ốp lưng iPhone", price: 150 },
+{ id: 2, name: "Sạc dự phòng Anker", price: 350 },
+{ id: 3, name: "Cáp sạc nhanh Type-C", price: 200 },
+{ id: 4, name: "Tai nghe chụp tai Hoco", price: 500 },
+{ id: 5, name: "Đế sạc không dây", price: 650 }
+],
+	"cart" : [
+{ id: 101, name: "Áo thun Oversize", quantity: 2, price: 250000 },
+{ id: 102, name: "Quần Jeans Baggy", quantity: 1, price: 400000 },
+{ id: 103, name: "Tất cổ cao White", quantity: 5, price: 30000 }
+],
+  "smartphones" : [
+{ id: 1, name: "iPhone 15 Pro Max", brand: "Apple" },
+{ id: 2, name: "Samsung Galaxy S24 Ultra", brand: "Samsung" },
+{ id: 3, name: "Xiaomi Redmi Note 13", brand: "Xiaomi" },
+{ id: 4, name: "Samsung Galaxy A55", brand: "Samsung" },
+{ id: 5, name: "Oppo Reno 11", brand: "Oppo" }
+],
+	"menu": [
+{ name: "Súp cua tóc tiên", category: "Khai vị" },
+{ name: "Cơm tấm sườn bì chả", category: "Món chính" },
+{ name: "Trà sữa trân châu đường đen", category: "Đồ uống" },
+{ name: "Gỏi cuốn tôm thịt", category: "Khai vị" },
+{ name: "Lẩu thái hải sản", category: "Món chính" },
+{ name: "Nước ép cam nguyên chất", category: "Đồ uống" }
+],
+	"currentCart" : [
+  { id: "p1", name: "MacBook M3", quantity: 1 },
+  { id: "p2", name: "Magic Mouse 2", quantity: 2 },
+],
+	"itemClickCase1" : { id: "p2", name: "Magic Mouse 2" },
+	"itemClickCase2" : { id: "p3", name: "Bàn phím Apple" },
+	"inventory" : [
+  { id: "sp1", name: "Đồng hồ Apple Watch", price: 12000000 },
+  { id: "sp2", name: "Laptop ASUS ROG Strix", price: 45000000 },
+  { id: "sp3", name: "Bàn di chuột LED RGB", price: 450000 },
+  { id: "sp4", name: "Màn hình Dell UltraSharp", price: 15000000 }
+]
+}
